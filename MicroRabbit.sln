@@ -1,43 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{08B20843-9D42-48D3-950A-41E9AF138DD8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0715F4F7-D9F9-4F96-9947-0CD533EA1CF3}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CB64951E-CBB5-480A-A17E-7D12A143F034}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{3C6E07B3-E319-4CBB-9266-7B5749A370FE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{44C1CEAD-8EAC-43EC-BD35-FBD827ACA64D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{94BEC703-74C0-4796-81BC-989E4A729488}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{34944C04-D2A5-41E1-AF6B-CFDAFDFD8773}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Domain.Core", "Domain\Core\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{EFA96185-080F-4296-8135-805EABF3FBED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infrastructure.Bus", "Infrastructure\Bus\MicroRabbit.Infrastructure.Bus\MicroRabbit.Infrastructure.Bus.csproj", "{A54896A4-03AB-441A-AA85-B62E60E56AB4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3C6E07B3-E319-4CBB-9266-7B5749A370FE} = {CB64951E-CBB5-480A-A17E-7D12A143F034}
-		{44C1CEAD-8EAC-43EC-BD35-FBD827ACA64D} = {CB64951E-CBB5-480A-A17E-7D12A143F034}
-		{34944C04-D2A5-41E1-AF6B-CFDAFDFD8773} = {0715F4F7-D9F9-4F96-9947-0CD533EA1CF3}
-		{EFA96185-080F-4296-8135-805EABF3FBED} = {34944C04-D2A5-41E1-AF6B-CFDAFDFD8773}
-		{A54896A4-03AB-441A-AA85-B62E60E56AB4} = {3C6E07B3-E319-4CBB-9266-7B5749A370FE}
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EFA96185-080F-4296-8135-805EABF3FBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFA96185-080F-4296-8135-805EABF3FBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFA96185-080F-4296-8135-805EABF3FBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFA96185-080F-4296-8135-805EABF3FBED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A54896A4-03AB-441A-AA85-B62E60E56AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A54896A4-03AB-441A-AA85-B62E60E56AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A54896A4-03AB-441A-AA85-B62E60E56AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A54896A4-03AB-441A-AA85-B62E60E56AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
