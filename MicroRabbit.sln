@@ -1,8 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{094DCFD6-26AD-4FF0-8EBB-2737E8441A41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{01653D2B-154F-423C-9BC7-8033C6CF7D67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5BFE3F82-61B7-4E14-9D82-10218B4ED795}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{3224499E-F9F7-4065-A5FB-24B697C269B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{88164772-36AF-40F8-A76D-04198F65D6B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4938E3CB-3D8A-49E0-8D6A-47FD5A239942}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3224499E-F9F7-4065-A5FB-24B697C269B0} = {5BFE3F82-61B7-4E14-9D82-10218B4ED795}
+		{88164772-36AF-40F8-A76D-04198F65D6B1} = {5BFE3F82-61B7-4E14-9D82-10218B4ED795}
 	EndGlobalSection
 EndGlobal
